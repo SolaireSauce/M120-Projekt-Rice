@@ -1,0 +1,27 @@
+﻿<Window x:Class="RiceSimulator2.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RiceSimulator2.Views"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280">
+    <Window.Resources>
+        <BitmapImage x:Key="China" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="E:\School\Gitlab\IPT-8\M120-Projekt-Rice\RiceSimulator2\RiceSimulator2\China.png"/>
+        <BitmapImage x:Key="Samurai" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="E:\School\Gitlab\IPT-8\M120-Projekt-Rice\RiceSimulator2\RiceSimulator2\d58r6nc-7feebc97-d274-4820-9e07-49195babcecf.png"/>
+        <BitmapImage x:Key="Coin" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="E:\School\Gitlab\IPT-8\M120-Projekt-Rice\RiceSimulator2\RiceSimulator2\Coin.gif"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="{DynamicResource China}" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <ProgressBar HorizontalAlignment="Center" Height="27"  VerticalAlignment="Top" Width="281" ValueChanged="ProgressBar_ValueChanged" Margin="0,20,0,0"/>
+        <ListBox HorizontalAlignment="Left" Height="265" Margin="1072,10,0,0" VerticalAlignment="Top" Width="192" SelectionChanged="ListBox_SelectionChanged"/>
+        <Button Content=">Shop" HorizontalAlignment="Left" Margin="1072,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <Image HorizontalAlignment="Left" Height="179" Margin="520,445,0,0" VerticalAlignment="Top" Width="179" Source="{DynamicResource Samurai}"/>
+        <Image HorizontalAlignment="Left" Height="179" Margin="759,336,0,0" VerticalAlignment="Top" Width="179" Source="{DynamicResource Coin}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,7,0,0" TextWrapping="Wrap" Text="LEVEL: 1" VerticalAlignment="Top" Height="40" Width="179" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1072,280,0,0" TextWrapping="Wrap" Text="COINS: 0" VerticalAlignment="Top" Height="40" Width="179" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="520,20,0,0" TextWrapping="Wrap" Text="Coins to next LEVEL 32..." VerticalAlignment="Top" Height="35" Width="296" FontSize="16"/>
+    </Grid>
+</Window>
