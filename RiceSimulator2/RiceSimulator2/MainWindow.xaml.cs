@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace RiceSimulator2.Views
+namespace RiceSimulator2
 {
     public partial class MainWindow : Window
     {

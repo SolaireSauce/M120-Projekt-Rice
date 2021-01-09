@@ -1,0 +1,19 @@
+﻿<Window x:Class="RiceSimulator2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RiceSimulator2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Administrator\Desktop\lel.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <ProgressBar HorizontalAlignment="Center" Height="27"  VerticalAlignment="Top" Width="281" ValueChanged="ProgressBar_ValueChanged" Margin="0,20,0,0"/>
+        <ListBox HorizontalAlignment="Left" Height="265" Margin="1072,10,0,0" VerticalAlignment="Top" Width="192" SelectionChanged="ListBox_SelectionChanged"/>
+        <Button Content=">Shop" HorizontalAlignment="Left" Margin="1072,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <Image HorizontalAlignment="Left" Height="179" Margin="249,280,0,0" VerticalAlignment="Top" Width="179" Source="C:\Users\Administrator\Desktop\Test.png"/>
+        <Image HorizontalAlignment="Left" Height="179" Margin="625,207,0,0" VerticalAlignment="Top" Width="179" Source="Test.png"/>
+    </Grid>
+</Window>

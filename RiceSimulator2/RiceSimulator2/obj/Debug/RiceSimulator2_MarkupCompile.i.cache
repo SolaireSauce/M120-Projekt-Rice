@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\School\Gitlab\IPT-8\M120-Projekt-Rice\RiceSimulator2\RiceSimulator2\obj\Debug\
+C:\Users\Administrator\source\repos\RiceSimulator2\RiceSimulator2\obj\Debug\
 RiceSimulator2
 none
 false
 DEBUG;TRACE
-E:\School\Gitlab\IPT-8\M120-Projekt-Rice\RiceSimulator2\RiceSimulator2\App.xaml
-11892971807
+C:\Users\Administrator\source\repos\RiceSimulator2\RiceSimulator2\App.xaml
+11151548125
 
-6628457063
+6440119400
 13-1505183044
-Views\MainWindow.xaml;
+MainWindow.xaml;
 
-False
+True
 
