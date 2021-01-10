@@ -18,8 +18,8 @@
         <ProgressBar HorizontalAlignment="Center" Height="27"  VerticalAlignment="Top" Width="281" ValueChanged="ProgressBar_ValueChanged" Margin="0,20,0,0"/>
         <ListBox HorizontalAlignment="Left" Height="265" Margin="1072,10,0,0" VerticalAlignment="Top" Width="192" SelectionChanged="ListBox_SelectionChanged"/>
         <Button Content=">Shop" HorizontalAlignment="Left" Margin="1072,10,0,0" VerticalAlignment="Top" Width="75"/>
-        <Image HorizontalAlignment="Left" Height="179" Margin="520,445,0,0" VerticalAlignment="Top" Width="179" Source="{DynamicResource Samurai}"/>
-        <Image HorizontalAlignment="Left" Height="179" Margin="759,336,0,0" VerticalAlignment="Top" Width="179" Source="{DynamicResource Coin}"/>
+        <Image x:Name="Samurai" HorizontalAlignment="Left" Height="179" Margin="520,445,0,0" VerticalAlignment="Top" Width="179" Source="{DynamicResource Samurai}"/>
+        <Image x:Name="Coin" HorizontalAlignment="Left" Height="179" Margin="759,336,0,0" VerticalAlignment="Top" Width="179" Source="{DynamicResource Coin}"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,7,0,0" TextWrapping="Wrap" Text="LEVEL: 1" VerticalAlignment="Top" Height="40" Width="179" FontSize="22"/>
         <TextBlock HorizontalAlignment="Left" Margin="1072,280,0,0" TextWrapping="Wrap" Text="COINS: 0" VerticalAlignment="Top" Height="40" Width="179" FontSize="22"/>
         <TextBlock HorizontalAlignment="Left" Margin="520,20,0,0" TextWrapping="Wrap" Text="Coins to next LEVEL 32..." VerticalAlignment="Top" Height="35" Width="296" FontSize="16"/>

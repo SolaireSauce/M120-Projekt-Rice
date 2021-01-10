@@ -24,7 +24,6 @@ namespace RiceSimulator2.Views
 
         private void ProgressBar_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-
         }
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
